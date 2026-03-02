@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Cartel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-bg"></div>
+    <div class="noise-overlay"></div>
+
+    <header class="navbar">
+      <div class="logo">
+        <span class="logo-mark">CC</span>
+        <span class="logo-text">Coffee Cartel</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#hero">Home</a>
+        <a href="#craft">Our Craft</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <button class="nav-cta">Reserve a Table</button>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Artisanal Roastery & Lounge</p>
+          <h1 class="hero-title">
+            Coffee, crafted with
+            <span class="hero-highlight">criminally good</span> precision.
+          </h1>
+          <p class="hero-subtitle">
+            Step into the Cartel: a sanctuary of slow-roasted beans, moody
+            lighting, and dangerously smooth espresso.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-btn">Order a Signature Brew</button>
+            <button class="ghost-btn">Explore the Cartel Menu</button>
+          </div>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">Single Origin</span>
+              <span class="meta-value">12+ curated farms</span>
+            </div>
+            <div>
+              <span class="meta-label">Roast Profiles</span>
+              <span class="meta-value">Ultra-light to midnight</span>
+            </div>
+            <div>
+              <span class="meta-label">Open Till</span>
+              <span class="meta-value">02:00 AM nightly</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-3d reveal">
+          <div class="hero-orbit">
+            <div class="coffee-cup-3d">
+              <div class="cup-plate"></div>
+              <div class="cup-body">
+                <div class="cup-inner"></div>
+                <div class="cup-rim"></div>
+                <div class="cup-handle"></div>
+              </div>
+              <div class="cup-steam">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="hero-card hero-card-main" data-tilt>
+              <div class="card-glow"></div>
+              <div class="card-inner">
+                <span class="card-tag">Signature Pour</span>
+                <h2>Cartel Midnight</h2>
+                <p>72-hour cold brew concentrate. Low acid. High intrigue.</p>
+                <div class="card-footer">
+                  <span class="price">$6.90</span>
+                  <span class="pill">LIMITED BATCH</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-card hero-card-secondary hero-card-left" data-tilt>
+              <div class="card-inner mini">
+                <span class="mini-label">Roastery Status</span>
+                <p>Batch #231 is roasting.<br />Ethiopia · Natural · 18kg</p>
+              </div>
+            </div>
+
+            <div
+              class="hero-card hero-card-secondary hero-card-right"
+              data-tilt
+            >
+              <div class="card-inner mini">
+                <span class="mini-label">Tonight's Mood</span>
+                <p>Lo-fi, dim lights, fogged windows, hushed schemes.</p>
+              </div>
+            </div>
+
+            <div class="floating-orbit">
+              <div class="bean-orbit bean-orbit-1"></div>
+              <div class="bean-orbit bean-orbit-2"></div>
+              <div class="bean-orbit bean-orbit-3"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="craft" class="section craft">
+        <div class="section-header reveal">
+          <p class="eyebrow">The Cartel Method</p>
+          <h2>Every cup is a calculated move.</h2>
+        </div>
+        <div class="craft-grid">
+          <article class="craft-card reveal" data-tilt>
+            <div class="badge">01</div>
+            <h3>Smuggled Origins</h3>
+            <p>
+              Direct-trade beans from micro-lots you won't find on any polite
+              menu.
+            </p>
+          </article>
+          <article class="craft-card reveal" data-tilt>
+            <div class="badge">02</div>
+            <h3>Shadow Roasting</h3>
+            <p>
+              Midnight roasts with thermal profiling for flawless sweetness and
+              depth.
+            </p>
+          </article>
+          <article class="craft-card reveal" data-tilt>
+            <div class="badge">03</div>
+            <h3>Precision Extraction</h3>
+            <p>
+              Pressure, flow, and time dialed in to within 0.1 seconds of
+              perfection.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="menu" class="section menu">
+        <div class="section-header reveal">
+          <p class="eyebrow">Cartel Signatures</p>
+          <h2>Drinks worth plotting for.</h2>
+        </div>
+        <div class="menu-grid">
+          <article class="menu-item reveal" data-tilt>
+            <div class="menu-top">
+              <h3>Undercover Espresso</h3>
+              <span class="pill pill-soft">DOUBLE SHOT</span>
+            </div>
+            <p>
+              Syrupy, chocolate-forward, and dangerously smooth. No witnesses.
+            </p>
+            <span class="price">₹ 180</span>
+          </article>
+          <article class="menu-item reveal" data-tilt>
+            <div class="menu-top">
+              <h3>Smoke &amp; Mirrors Latte</h3>
+              <span class="pill pill-soft">OATMILK</span>
+            </div>
+            <p>
+              Smoked vanilla, caramelized sugar, and a whisper of sea salt.
+            </p>
+            <span class="price">₹ 240</span>
+          </article>
+          <article class="menu-item reveal" data-tilt>
+            <div class="menu-top">
+              <h3>Witness Protection Cold Brew</h3>
+              <span class="pill pill-soft">18 HR BREW</span>
+            </div>
+            <p>
+              Low profile, low acid, high caffeine. New identity included.
+            </p>
+            <span class="price">₹ 260</span>
+          </article>
+          <article class="menu-item reveal" data-tilt>
+            <div class="menu-top">
+              <h3>Cartel Cappuccino</h3>
+              <span class="pill pill-soft">CLASSIC</span>
+            </div>
+            <p>
+              Balanced espresso and velvet foam with a dusting of cartel cocoa.
+            </p>
+            <span class="price">₹ 210</span>
+          </article>
+          <article class="menu-item reveal" data-tilt>
+            <div class="menu-top">
+              <h3>Mocha Hit</h3>
+              <span class="pill pill-soft">CHOCOLATE</span>
+            </div>
+            <p>
+              Dark chocolate, espresso, and steamed milk for a smooth heist.
+            </p>
+            <span class="price">₹ 230</span>
+          </article>
+          <article class="menu-item reveal" data-tilt>
+            <div class="menu-top">
+              <h3>Dirty Chai Operation</h3>
+              <span class="pill pill-soft">SPICED</span>
+            </div>
+            <p>
+              Masala chai fused with a bold espresso shot, Indian cartel style.
+            </p>
+            <span class="price">₹ 250</span>
+          </article>
+          <article class="menu-item" data-tilt>
+            <div class="menu-top">
+              <h3>Hazelnut Syndicate Frappe</h3>
+              <span class="pill pill-soft">BLENDED</span>
+            </div>
+            <p>
+              Iced, blended hazelnut coffee with a caramel drizzle and crunch.
+            </p>
+            <span class="price">₹ 280</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="visit" class="section visit">
+        <div class="visit-card reveal" data-tilt>
+          <div class="visit-overlay"></div>
+          <div class="visit-content">
+            <p class="eyebrow">Find the Safehouse</p>
+            <h2>Slip into Coffee Cartel.</h2>
+            <p class="visit-text">
+              221B Shadow Lane · Warehouse District<br />
+              Open daily · 08:00 — 02:00
+            </p>
+            <div class="visit-actions">
+              <button class="primary-btn">Get Directions</button>
+              <button class="ghost-btn ghost-light">Book a Private Roast</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> Coffee Cartel. All rights reserved.</span>
+      <span class="footer-meta">No decaf. No compromises.</span>
+    </footer>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
+
